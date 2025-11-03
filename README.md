@@ -22,44 +22,84 @@ Execute the necessary commands/batch file for the desired output.
 
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
-Create a directory named "my-folder"
+# Create a directory named "my-folder"
 
 ## COMMAND AND OUTPUT
-
-Remove the directory "my-folder"
-
-## COMMAND AND OUTPUT
-
-
-Create the file Rose.txt
-
-## COMMAND AND OUTPUT
+```
+mkdir my-folder
+```
+<img width="401" height="46" alt="image" src="https://github.com/user-attachments/assets/af9af8b5-cc4f-4747-a799-ddfd0a6b955d" />
 
 
-Create the file hello.txt using echo and redirection
+# Remove the directory "my-folder"
 
 ## COMMAND AND OUTPUT
+```
+rmdir my-folder
+```
+<img width="483" height="62" alt="image" src="https://github.com/user-attachments/assets/7e899c73-2ada-4c76-b554-bfeef0a1e948" />
 
-Copy the file hello.txt into the file hello1.txt
 
-## COMMAND AND OUTPUT
 
-Remove the file hello1.txt
-
-## COMMAND AND OUTPUT
-
-List out the file hello1.txt in the current directory
+# Create the file Rose.txt
 
 ## COMMAND AND OUTPUT
+```
+type nul > Rose.txt
+```
+<img width="436" height="43" alt="image" src="https://github.com/user-attachments/assets/16f03acb-5a80-4d14-9001-17eb332d3dc2" />
 
-List out all the associated file extensions 
+
+# Create the file hello.txt using echo and redirection
 
 ## COMMAND AND OUTPUT
+```
+echo Hello World! > hello.txt
+```
+<img width="576" height="57" alt="image" src="https://github.com/user-attachments/assets/8a48f9e4-ac38-4ff9-9221-596b29f1bfcd" />
 
 
-Compare the file hello.txt and rose.txt
+# Copy the file hello.txt into the file hello1.txt
 
 ## COMMAND AND OUTPUT
+```
+copy hello.txt hello1.txt
+```
+<img width="570" height="70" alt="image" src="https://github.com/user-attachments/assets/3778db36-626d-43b7-a6cf-773119435c0a" />
+
+# Remove the file hello1.txt
+
+## COMMAND AND OUTPUT
+```
+del hello1.txt
+```
+<img width="445" height="227" alt="image" src="https://github.com/user-attachments/assets/8e1b270f-789f-46d8-a333-ff3f740cdd4b" />
+
+
+# List out the file hello1.txt in the current directory
+
+## COMMAND AND OUTPUT
+```
+dir hello1.txt
+```
+<img width="445" height="227" alt="image" src="https://github.com/user-attachments/assets/8e1b270f-789f-46d8-a333-ff3f740cdd4b" />
+
+# List out all the associated file extensions 
+
+## COMMAND AND OUTPUT
+```
+assoc
+```
+<img width="403" height="202" alt="image" src="https://github.com/user-attachments/assets/dd46f128-938b-4b3a-ac7a-38fdfae7eccd" />
+
+
+# Compare the file hello.txt and rose.txt
+
+## COMMAND AND OUTPUT
+```
+fc hello.txt Rose.txt
+```
+<img width="471" height="162" alt="image" src="https://github.com/user-attachments/assets/870671e1-2e35-43ae-809c-9a95a49f2be3" />
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
@@ -70,6 +110,7 @@ Create a batch file named on the desktop. The batch file need to have a variable
 
 ## OUTPUT
 
+<img width="490" height="91" alt="image" src="https://github.com/user-attachments/assets/89f92b97-c632-4114-9dd3-7e63fdefd0c5" />
 
 
 Create a batch file  on the desktop that checks whether a user-input number is odd or not. The script should:
@@ -84,6 +125,7 @@ Handle invalid inputs for the continuation prompt (Y/N) gracefully.
 
 ## OUTPUT
 
+<img width="658" height="98" alt="image" src="https://github.com/user-attachments/assets/3f80146b-b8b5-4c22-80f9-936ee432d5aa" />
 
 
 
@@ -94,6 +136,7 @@ Write a batch file that uses a FOR loop to iterate over a sequence of numbers (1
 
 ## OUTPUT
 
+<img width="458" height="167" alt="image" src="https://github.com/user-attachments/assets/15f863b8-fb80-4e3a-a2cd-51c234733e06" />
 
 
 
@@ -107,6 +150,7 @@ Expected Output (if the file exists):
 
 ## OUTPUT
 
+<img width="464" height="82" alt="image" src="https://github.com/user-attachments/assets/6c0b2a38-36d5-49b2-a585-867677c5d059" />
 
 Write a batch script that displays a simple menu with three options:
 Say Hello – Displays the message Hello, World!
@@ -116,6 +160,7 @@ The script should repeatedly display the menu until the user chooses to exit. Us
 
 
 ## OUTPUT
+<img width="640" height="242" alt="image" src="https://github.com/user-attachments/assets/90db5d38-e6dc-471f-91cf-da3c4730c350" />
 
 
 
